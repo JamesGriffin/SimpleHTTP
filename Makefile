@@ -1,6 +1,6 @@
 all:
-	gcc server.c -std=c99 -O3 -lczmq -lzmq -o simplehttp
+	gcc server.c -std=c99 -O3 -o simplehttp -Wno-unused-result
 
 debug:
-	gcc server.c -std=c99 -lczmq -lzmq -o simplehttp -g
+	gcc server.c -std=c99 -o simplehttp -g
 

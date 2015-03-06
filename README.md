@@ -3,7 +3,7 @@ An extremely basic HTTP server in C
 
 ## Compiling and Running
 
-Requires ZeroMQ and the ZeroMQ C bindings: http://zeromq.org/
+Will only work on UNIX-like systems such as Linux.
 
 Compile with:
 ```
